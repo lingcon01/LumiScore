@@ -1,0 +1,75 @@
+=================================MCL1================================
+Parameter containing:
+tensor([[0.3742, 0.3359, 0.2916]], requires_grad=True)
+Parameter containing:
+tensor([0.3925], requires_grad=True)
+corr is 0.7461102131467886 	 p is 1.4185252996035804e-08 	 pr is 0.7455536723136902
+loss is 0.7461102131467886 
+ pr is 0.7455536723136902
+rmse is 0.8047416076246255
+=================================Thrombin================================
+Parameter containing:
+tensor([[0.1605, 0.1299, 0.2369]], requires_grad=True)
+Parameter containing:
+tensor([0.3462], requires_grad=True)
+corr is 0.8636363636363636 	 p is 0.0006116938500931706 	 pr is 0.8620263934135437
+loss is 0.8636363636363636 
+ pr is 0.8620263934135437
+rmse is 0.4119734698197903
+=================================PTP1B================================
+Parameter containing:
+tensor([[0.1209, 0.0346, 0.0837]], requires_grad=True)
+Parameter containing:
+tensor([0.2243], requires_grad=True)
+corr is 0.7293427134934789 	 p is 7.861810240446254e-05 	 pr is 0.7529524564743042
+loss is 0.7293427134934789 
+ pr is 0.7529524564743042
+rmse is 1.3398961093114137
+=================================CDK2================================
+Parameter containing:
+tensor([[0.1331, 0.0121, 0.2276]], requires_grad=True)
+Parameter containing:
+tensor([0.3865], requires_grad=True)
+corr is 0.8352941176470589 	 p is 5.637132062814415e-05 	 pr is 0.7925773859024048
+loss is 0.8352941176470589 
+ pr is 0.7925773859024048
+rmse is 0.7787480154364267
+=================================Tyk2================================
+Parameter containing:
+tensor([[0.3715, 0.0539, 0.2549]], requires_grad=True)
+Parameter containing:
+tensor([0.2653], requires_grad=True)
+corr is 0.7147058823529412 	 p is 0.0018627410999474353 	 pr is 0.6981468796730042
+loss is 0.7147058823529412 
+ pr is 0.6981468796730042
+rmse is 1.033208201635685
+=================================p38================================
+Parameter containing:
+tensor([[0.1547, 0.3832, 0.0011]], requires_grad=True)
+Parameter containing:
+tensor([0.3774], requires_grad=True)
+corr is 0.6239488786593479 	 p is 8.048382485805101e-05 	 pr is 0.6121286749839783
+loss is 0.6239488786593479 
+ pr is 0.6121286749839783
+rmse is 0.9257253316095372
+=================================Jnk1================================
+Parameter containing:
+tensor([[0.0434, 0.2027, 0.0369]], requires_grad=True)
+Parameter containing:
+tensor([0.2790], requires_grad=True)
+corr is 0.7281585314212239 	 p is 0.0001823196239866933 	 pr is 0.6788696050643921
+loss is 0.7281585314212239 
+ pr is 0.6788696050643921
+rmse is 0.6886468771358857
+=================================BACE================================
+Parameter containing:
+tensor([[0.2672, 0.1774, 0.0284]], requires_grad=True)
+Parameter containing:
+tensor([0.3428], requires_grad=True)
+corr is 0.6197927767836089 	 p is 5.5498513069439754e-05 	 pr is 0.5934061408042908
+loss is 0.6197927767836089 
+ pr is 0.5934061408042908
+rmse is 0.9713388429852882
+pr is 0.716957651078701
+ spearman is 0.7326236846426015 
+ rmse is 0.8692848069448316

@@ -6,7 +6,8 @@ website: http://ai2physic.top
 
 How to preprocess the protein and ligand data:
 ```
-sh ./predict/run_suscore.sh
+python ./SuScore/feats/extract_pocket_prody.py
+python ./SuScore/feats/mol2radius.py
 
 ```
 

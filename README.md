@@ -8,7 +8,6 @@ How to preprocess the protein and ligand data:
 ```
 python ./SuScore/feats/extract_pocket_prody.py
 python ./SuScore/feats/mol2radius.py
-
 ```
 
 

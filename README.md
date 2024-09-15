@@ -3,3 +3,6 @@
 ![](https://github.com/lingcon01/LumiScore/blob/master/SuScore/frame.png)
 
 website: http://ai2physic.top
+
+Use model to predict ABFE:
+  sh ./predict/run_prdict.sh

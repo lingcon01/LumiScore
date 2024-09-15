@@ -5,4 +5,11 @@
 website: http://ai2physic.top
 
 Use model to predict ABFE:
-  sh ./predict/run_prdict.sh
+```
+sh ./predict/run_suscore.sh
+```
+
+pretrain LumiScore:
+```
+```
+

@@ -1,4 +1,4 @@
-## Robust Protein-Ligand Interaction Modeling Integrating Physical Laws and Geometric Knowledge for Absolute Binding Free Energy Calculation![image](https://github.com/user-attachments/assets/cd50d1f9-4eb3-4ad0-b3b5-c8c662fadb7e)
+## Robust Protein-Ligand Interaction Modeling Integrating Physical Laws and Geometric Knowledge for Absolute Binding Free Energy Calculation
 
 
 ![](https://github.com/lingcon01/LumiScore/blob/master/SuScore/frame.png)

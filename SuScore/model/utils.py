@@ -620,7 +620,7 @@ def run_a_train_epoch(epoch, model, data_loader, optimizer, mdn_weight=1.0, affi
         # affi_loss += affi.item() * batch.unique().size(0)
         atom_loss += atom.item() * batch.unique().size(0)
         bond_loss += bond.item() * batch.unique().size(0)
-        total_loss += mdn_loss + atom_loss * aux_weight + bond_loss * aux_weight + affi * affi_weight
+        total_loss += mdn_loss + atom_loss * aux_weight + bond_loss * aux_weight + (1  - affi * affi_weight)
 
         # print('Step, Total Loss: {:.3f}, MDN: {:.3f}'.format(total_loss, mdn_loss))
         if np.isinf(mdn_loss) or np.isnan(mdn_loss): break
@@ -694,7 +694,7 @@ def run_an_eval_epoch(model, data_loader, pred=False, atom_contribution=False, r
                 atom = F.cross_entropy(atom_types, atom_labels)
                 bond = F.cross_entropy(bond_types, bond_labels)
                 # loss = (mdn * mdn_weight) + (atom * aux_weight) + (bond * aux_weight)
-                loss = mdn + affi * affi_weight + (atom * aux_weight) + (bond * aux_weight)
+                loss = mdn + (1- affi * affi_weight) + (atom * aux_weight) + (bond * aux_weight)
 
                 probs.append(y)
 

@@ -685,8 +685,7 @@ def run_an_eval_epoch(model, data_loader, pred=False, atom_contribution=False, r
                     y = scatter_add(prob, batch[th.where(dist <= dist_threhold)[0]], dim=0,
                                     dim_size=batch.unique().size(0))
                 else:
-                    y = scatter_add(prob, batch[th.where(dist <= dist_threhold)[0]], dim=0,
-                                    dim_size=batch.unique().size(0))
+					y = scatter_add(prob, batch, dim=0, dim_size=batch.unique().size(0)).to(th.float32)
                 labels = labels.float().type_as(y).to(device)
 
                 affi = th.corrcoef(th.stack([y, labels]))[1, 0]

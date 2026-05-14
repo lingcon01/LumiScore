@@ -6,7 +6,7 @@ import sys
 
 sys.path.append("") # your program
 from SuScore.data.data import PDBbindDataset
-from SuScore.model.ET_MDN import LumiScore, GraphTransformer, SubGT
+from SuScore.model.ET_MDN import GenScore, GraphTransformer, SubGT
 from SuScore.model.mdn_utils import EarlyStopping, set_random_seed, run_a_train_epoch, run_an_eval_epoch, mdn_loss_fn, \
     GIP_train_epoch, GIP_eval_epoch, GIP_semi_label
 from fep_score import fep_score
